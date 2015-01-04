@@ -12,3 +12,6 @@ Demonstration of a basic repository for kodi (To use as template)
     etc
 3. Download and install python for your system<br>
     https://www.python.org/downloads/<br>
+4. Fork this repo:<br>
+    https://github.com/Mafarricos/Mafarricos-kodi-demo-repo/fork
+5. On your forked project go to Settings and change the repository name to what do you want.
