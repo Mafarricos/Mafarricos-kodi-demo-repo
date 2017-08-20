@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="urikodiaddon.repository" name="urikodiaddon.repository" version="0.0.1" provider-name="URI3612">
+	<extension point="xbmc.addon.repository" name="uri.repository">
+		<info compressed="false">http://raw.github.com/URI3612/urikodiaddon.repository/master/addons.xml</info>
+		<checksum>http://raw.github.com/URI3612/urikodiaddon.repository/master/addons.xml.md5</checksum>
+		<datadir zip="true">http://raw.github.com/URI3612/urikodiaddon.repository/master/repo/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Repositorio do Uri</summary>
+		<description>Addon com filmes em pt-pt</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
