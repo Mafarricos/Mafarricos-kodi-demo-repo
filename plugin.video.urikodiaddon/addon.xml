@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addons>
 <addon id="plugin.video.urikodiaddon"
        name="urikodiaddon"
        version="1.0"
@@ -16,7 +15,7 @@
     <import addon="script.module.youtube.dl" optional="true"/>
     <import addon="plugin.video.youtube" version="3.0.0"/>
     <import addon="script.module.urlresolver" optional="true"/>
-    <import addon="script.module.simplejson" />
+    <import addon="script.module.simplejson" /> 
     <import addon="script.common.plugin.cache" version="2.5.2"/>
     <import addon="script.module.metahandler" version="2.5.1"/>
 
@@ -30,18 +29,3 @@
     <platform>all</platform>
   </extension>
 </addon>
-
-<addon id="urikodiaddon.repository" name="urikodiaddon.repository" version="0.0.1" provider-name="URI3612">
-	<extension point="xbmc.addon.repository" name="uri.repository">
-		<info compressed="false">http://raw.github.com/URI3612/urikodiaddon.repository/master/addons.xml</info>
-		<checksum>http://raw.github.com/URI3612/urikodiaddon.repository/master/addons.xml.md5</checksum>
-		<datadir zip="true">http://raw.github.com/URI3612/urikodiaddon.repository/master/repo/</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>Repositorio do Uri</summary>
-		<description>Addon com filmes em pt-pt</description>
-		<disclaimer></disclaimer>
-		<platform>all</platform>
-	</extension>
-</addon>
-</addons>
