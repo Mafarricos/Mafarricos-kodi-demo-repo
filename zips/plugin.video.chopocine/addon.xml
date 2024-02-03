@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon
+	id="plugin.video.chopocine" version="15" name="[B][COLOR white]chopo[COLOR aqua]cine[/COLOR][/B]" provider-name="equipo tvchopo">
+<requires>
+    <import addon="plugin.video.youtube" /> 
+    <import addon="script.module.requests" />
+    <import addon="script.module.resolveurl"  optional="true" />
+    <import addon="script.module.six" />
+  </requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	
+	 <extension point="xbmc.addon.repository" name="tvchopo">
+        <info>https://raw.githubusercontent.com/elchocolate/repotvchopo/master/Repositorio/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/elchocolate/repotvchopo/master/Repositorio/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/elchocolate/repotvchopo/master/Repositorio/</datadir>
+	    <dir>
+        <info compressed="false">https://raw.githubusercontent.com/elchocolate/repotvchopo/master/Repositorio/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/elchocolate/repotvchopo/master/Repositorio/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/elchocolate/repotvchopo/master/Repositorio/</datadir>
+        </dir>
+    </extension>
+	
+	
+	<extension point="xbmc.addon.metadata">
+                <platform>all</platform>
+		<summary lang="en">choposeries</summary>
+		<summary lang="da">choposeries</summary>
+		<description lang="en">[B][LOWERCASE][CAPITALIZE][COLOR white]addon de cine de la familia tvchopo.....para cualquier consulta o problema  unete  a nuestro grupo de telegram [COLOR yellow]@tvchopo[/COLOR][/CAPITALIZE][/LOWERCASE][/B]</description>
+		<website></website>
+		<license>GPL 2.0</license>
+		<platform>all</platform>
+<assets>
+        <icon>icon.gif</icon>
+  <screenshot>resources/screenshots/screenshot1.jpg</screenshot>
+  <screenshot>resources/screenshots/screenshot2.jpg</screenshot>
+  <screenshot>resources/screenshots/screenshot3.jpg</screenshot>
+  <screenshot>resources/screenshots/screenshot4.jpg</screenshot>
+  <screenshot>resources/screenshots/screenshot5.jpg</screenshot>
+        <fanart>fanart.png</fanart>
+    </assets>        
+		<language>es</language>
+	</extension>
+</addon>

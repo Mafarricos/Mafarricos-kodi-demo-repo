@@ -1,0 +1,24 @@
+palcoTV 0.1beta
+
+- Versión inicial
+- Muchísimos errores de principiante ;)
+
+
+palcoTV 0.2beta
+
+- Corregido error que impedía arrancar en Android
+- Se pueden lanzar los enlaces Acestreams (gracias a P2P-Streams, de enen92)
+- Añadido soporte de listas categorizadas de canales
+- Corregidos muchos errores
+
+palcoTV 0.2.5
+
+- Soporte de listas M3U de SimpleTV
+- Nueva biblioteca de listas M3U.- Añadido enlace al tutorial para torpes en Youtube ;)
+- Agregada sección de listas M3U para descargar
+- Nuevas "multilistas": XBMCyMás, SPlive, Listas MashUp
+- Nuevas listas XML: Gurb, White Noise, José Rodriguez, etc. (gracias a todos por compartir!)
+
+
+
+
