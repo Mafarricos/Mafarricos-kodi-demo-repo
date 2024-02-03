@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.tukan1.kodi" name="Tukan1 official Repo" version="0.0.1" provider-name="Tukan1">
+	<extension point="xbmc.addon.repository" name="Tukan1 official Repo">
+		<info compressed="false">https://raw.githubusercontent.com/Kbestro/tukan1/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/Kbestro/tukan1/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/Kbestro/tukan1/master</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Tukan1 official Repo</summary>
+   		<description lang="en">Instala los Addons de Tukan1.</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
